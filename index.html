@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="css/baguetteBox.min.css">
     <title>Photo Gallery</title>
 </head>
-<body>
+<body> 
+    <div class="input-div">
     <input type="search" name="search" id="search" placeholder="Search">
-   
+</div>
+
     <div class="container">
         <div class="gallery">
             <a href="photos/01.jpg" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields." title="Hay Bales">
@@ -62,10 +64,14 @@
 
 
         </div>
-
-
-
 </div>
+
+<script>
+    window.addEventListener('load', function() {
+      baguetteBox.run('.gallery');
+    });
+</script>
+
 
 <script src="js/baguetteBox.min.js"></script> 
     <script src="js/searchFilter.js"></script>

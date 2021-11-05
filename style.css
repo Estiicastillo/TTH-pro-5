@@ -1,14 +1,25 @@
-body{
+body {
 padding: 25px;    
 }
 
 
-.container{
-
-display: flex;
-flex-direction:column;
-
+body{
+padding: 25px;    
 }
+
+.gallery {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width:85%;
+    max-width:900px; 
+    margin: 10px auto;
+  }
+
+
+
+
+
 .container img{
 height: auto;
 width: 100%;
@@ -28,6 +39,10 @@ font-size: 16px;
 
 
 }
+
+img {
+    width: 100%;
+   }
 @media screen and (min-width:768px) {
     .gallery {
         display:grid;
@@ -70,3 +85,27 @@ text-align: center;
     }
     
 }
+.container img{
+height: auto;
+width: 100%;
+margin-bottom: 25px;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+input:placeholder{
+font-size: 16px;
+
+
+
+}
+
+img {
+    width: 100%;
+   }
+
