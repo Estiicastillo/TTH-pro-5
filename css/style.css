@@ -12,7 +12,7 @@
   }
   
   input {
-    width: 100%;
+    width: 46%;
     padding: 10px;
     box-sizing: border-box;
     margin: 25px auto;
@@ -29,4 +29,9 @@
     justify-content: center;
     gap: 25px;
     margin: 10px auto
+  }
+
+  div.input-div {
+
+    text-align: center;
   }
